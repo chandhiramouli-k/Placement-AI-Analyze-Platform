@@ -47,35 +47,33 @@ An AI-powered web application that helps students prepare for campus placements 
 placement-ai-platform/
 │
 ├── api/
-│ ├── student_routes.py
-│ └── analysis_routes.py
+│   ├── student_routes.py
+│   └── analysis_routes.py
 │
 ├── database/
-│ └── mongodb.py
+│   └── mongodb.py
 │
 ├── models/
-│ └── student_model.py
+│   └── student_model.py
 │
 ├── services/
-│ ├── student_service.py
-│ ├── ai_service.py
-│ └── readiness_service.py
+│   ├── student_service.py
+│   ├── ai_service.py
+│   └── readiness_service.py
 │
 ├── prompts/
-│ └── analysis_prompt.py
+│   └── analysis_prompt.py
 │
 ├── utils/
-│ └── helpers.py
+│   └── helpers.py
 │
 ├── dashboard/
-│ └── streamlit_app.py
+│   └── streamlit_app.py
 │
 ├── main.py
 ├── requirements.txt
-└── .env
-
-
----
+├── .env
+└── README.md
 
 # ⚙️ Installation
 
