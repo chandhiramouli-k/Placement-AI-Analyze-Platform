@@ -130,5 +130,4 @@ http://localhost:8501
 👨‍💻 Author
 
 Chandhiramouli K
-Final Year CSE (AI & ML) Student
-Passionate about AI, ML, and Full Stack Development
+B.E CSE(AI & ML) 
