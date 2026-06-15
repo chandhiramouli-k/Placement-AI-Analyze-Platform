@@ -43,37 +43,35 @@ An AI-powered web application that helps students prepare for campus placements 
 
 ---
 
-# 📁 Project Structure
 placement-ai-platform/
+├── api/                      # API routes (FastAPI endpoints)
+│   ├── student_routes.py     # Student CRUD APIs
+│   └── analysis_routes.py    # AI analysis endpoints
 │
-├── api/
-│   ├── student_routes.py
-│   └── analysis_routes.py
+├── database/                 # Database connection layer
+│   └── mongodb.py            # MongoDB connection & config
 │
-├── database/
-│   └── mongodb.py
+├── models/                   # Data models (schemas)
+│   └── student_model.py      # Student schema definition
 │
-├── models/
-│   └── student_model.py
+├── services/                 # Business logic layer
+│   ├── student_service.py    # Student operations logic
+│   ├── ai_service.py        # Ollama AI integration logic
+│   └── readiness_service.py  # Score calculation logic
 │
-├── services/
-│   ├── student_service.py
-│   ├── ai_service.py
-│   └── readiness_service.py
+├── prompts/                  # AI prompt templates
+│   └── analysis_prompt.py    # Prompt for student analysis
 │
-├── prompts/
-│   └── analysis_prompt.py
+├── utils/                    # Helper functions
+│   └── helpers.py           # Utility functions
 │
-├── utils/
-│   └── helpers.py
+├── dashboard/                # Streamlit frontend UI
+│   └── streamlit_app.py     # Main dashboard application
 │
-├── dashboard/
-│   └── streamlit_app.py
-│
-├── main.py
-├── requirements.txt
-├── .env
-└── README.md
+├── main.py                   # FastAPI application entry point
+├── requirements.txt          # Project dependencies
+├── .env                      # Environment variables
+└── README.md                 # Project documentation
 
 # ⚙️ Installation
 
