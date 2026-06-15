@@ -41,7 +41,7 @@ An AI-powered web application that helps students prepare for campus placements 
 - 🗄️ Database: MongoDB
 - 🐍 Language: Python
 
----
+```text
 
 placement-ai-platform/
 │
